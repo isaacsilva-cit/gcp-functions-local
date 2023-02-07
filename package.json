@@ -1,0 +1,16 @@
+{
+  "name": "gcp-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=myFunction",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.3",
+    "moment-timezone": "^0.5.40"
+  }
+}
